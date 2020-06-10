@@ -1,8 +1,9 @@
 package entites;
+
 /**
  * @author Souleymane THIAM
  * 
- * Création de la classe personne
+ *         Création de la classe personne
  *
  */
 public class Personne {
@@ -34,58 +35,32 @@ public class Personne {
 	 * Méthode permettant d’afficher le nom et le prénom avec le nom de famille en
 	 * majuscules
 	 */
-	public void afficheNomPrenom() {
-		System.out.println("Nom: " +nom.toUpperCase() + " Prénom: " +prenom);
+	public void afficherIdentite() {
+		System.out.println("Nom: " + nom.toUpperCase() + " Prénom: " + prenom);
 	}
 
-	/**
-	 * méthode qui prend un argument en paramètre et permet de modifier la variable
-	 * d’instance nom de Personne
-	 */
-	public void modifNom(String nvNom) {
-		nom = nvNom;
+	public String getNom() {
+		return nom;
 	}
 
-	/**
-	 * méthode qui prend un argument en paramètre et permet de modifier la variable
-	 * d’instance prenom de Personne
-	 */
-	public void modifPrenom(String nvPrenom) {
-		prenom = nvPrenom;
+	public void setNom(String nom) {
+		this.nom = nom;
 	}
-	
-	/**
-	 * méthode qui prend un argument en paramètre et permet de modifier l'adresse
-	 */
-	public void modifAdresse(int numRue, String libelleVoie, int codePostal, String ville) {
-		adr.numRue = numRue;
-		adr.libelleVoie = libelleVoie;
-		adr.codePostal = codePostal;
-		adr.ville = ville;
+
+	public String getPrenom() {
+		return prenom;
 	}
-	
-	/**
-	 * Méthode qui retourne le nom.
-	 */
-	public void afficheNom() {
-		System.out.println("Nom : " +nom);
+
+	public void setPrenom(String prenom) {
+		this.prenom = prenom;
 	}
-	
-	/**
-	 * Méthode qui retourne le prenom.
-	 */
-	public void affichePreom() {
-		System.out.println("Prenom : " +prenom);
+
+	public AdressePostale getAdr() {
+		return adr;
 	}
-	
-	/**
-	 * Méthode qui retourne le prenom.
-	 * @return 
-	 */
-	public void afficheAdresse() {
-		
-		System.out.println("Adresse: " +adr.numRue  + adr.libelleVoie + adr.codePostal + adr.ville);
+
+	public void setAdr(AdressePostale adr) {
+		this.adr = adr;
 	}
-	
-	
+
 }
