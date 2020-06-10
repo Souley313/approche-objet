@@ -19,6 +19,12 @@ public class TestPersonne {
 		
 		AdressePostale adr2 = new AdressePostale (55, " de Graville ", 76600, " Le Havre ");
 		
+		pers2.setAdr(adr2);
+		
+		adr2 = pers2.getAdr();
+		
+		System.out.println("Votre numéro de rue est:" +adr2.getNumRue());
+		
 		
 		
 
