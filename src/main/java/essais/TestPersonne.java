@@ -1,6 +1,6 @@
 package essais;
 
-import entites.Personne;
+import entites.*;
 
 public class TestPersonne {
 
@@ -10,10 +10,14 @@ public class TestPersonne {
 		Personne pers1 = new Personne();
 		pers1.nom = "Souleymane";
 		pers1.prenom = "THIAM";
-		pers1.ad.numRue = 22;
-		pers1.ad.libelleVoie = "rue de Graville";
-		pers1.ad.codePostal = 76600;
-		pers1.ad.ville = "Le Havre";
+		
+		pers1.adr = new AdressePostale();
+		
+		pers1.adr.numRue = 22;
+		pers1.adr.libelleVoie = "rue de Graville";
+		pers1.adr.codePostal = 76600;
+		pers1.adr.ville = "Le Havre";
+		
 
 	}
 
