@@ -32,13 +32,13 @@ public class Cercle implements ObjetGeometrique {
 	}
 
 	@Override
-	public double perimetre() {
+	public double perimetre() {//Retourne le périmètre d'un cercle
 		// TODO Auto-generated method stub
 		return 2 * Math.PI * rayon;
 	}
 
 	@Override
-	public double surface() {
+	public double surface() {//Retourne la surface d'un cercle
 		// TODO Auto-generated method stub
 		return Math.PI * rayon;
 	}

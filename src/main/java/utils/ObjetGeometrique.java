@@ -3,7 +3,7 @@ package utils;
 /**
  * Liste les méthodes obligatoires que doit posséder un objet géométrique
  * 
- * @author DIGINAMIC
+ * @author Souleymane THIAM
  */
 public interface ObjetGeometrique {
 	/**

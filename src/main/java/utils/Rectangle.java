@@ -49,13 +49,13 @@ public class Rectangle implements ObjetGeometrique {
 	}
 
 	@Override
-	public double perimetre() {
+	public double perimetre() {//Retourne le périmètre d'un rectangle
 		// TODO Auto-generated method stub
 		return (longeur + largeur) * 2;
 	}
 
 	@Override
-	public double surface() {
+	public double surface() {//Retourne la surface d'un rectangle
 		// TODO Auto-generated method stub
 		return longeur * largeur;
 	}
