@@ -48,7 +48,7 @@ public class Compte {
 	
 	@Override
 	public String toString() {
-		return "Compte [numCompte=" + numCompte + ", solde=" + solde + "]";
+		return "Numéro de Compte= " + numCompte + ", solde= " + solde ;
 	}
 
 }
