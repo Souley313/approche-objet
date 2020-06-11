@@ -1,13 +1,13 @@
 package essais;
 
-import entites.AdressePostale;
+//import entites.AdressePostale;
 
 public class TestAdressePostale {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		AdressePostale ap1 = new AdressePostale();
+		//AdressePostale ap1 = new AdressePostale();
 
 	}
 
