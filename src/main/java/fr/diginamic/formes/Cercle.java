@@ -1,19 +1,21 @@
-package utils;
+/**
+ * 
+ */
+package fr.diginamic.formes;
 
 /**
- * La classe Cercle
+ * La classe cercle qui hérite de la abstraite Forme
  * @author Souleymane THIAM
  *
  */
-public class Cercle implements ObjetGeometrique {
+public class Cercle extends Forme {
 
-	private double rayon; // rayon du cercle
+	double rayon; // rayon du cercle
 
 	/**
 	 * @param rayon
 	 */
 	public Cercle(double rayon) {
-		super();
 		this.rayon = rayon;
 	}
 
@@ -32,21 +34,15 @@ public class Cercle implements ObjetGeometrique {
 	}
 
 	@Override
-	public double perimetre() {//Retourne le périmètre d'un cercle
-		// TODO Auto-generated method stub
-		return 2 * Math.PI * rayon;
-	}
-
-	@Override
 	public double surface() {//Retourne la surface d'un cercle
 		// TODO Auto-generated method stub
 		return Math.PI * rayon * rayon;
 	}
 
 	@Override
-	public String toString() {
-		return "Rayon du cercle= " + rayon + ", toString()=" + super.toString();
+	public double perimetre() {//Retourne le périmètre d'un cercle
+		// TODO Auto-generated method stub
+		return 2 * Math.PI * rayon;
 	}
-	
-	
+
 }

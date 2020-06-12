@@ -12,6 +12,17 @@ public class Compte {
 	
 	private int numCompte; // numéro du compte
 	private double solde;  // solde du compte
+	
+	/**
+	 * @param numCompte
+	 * @param solde
+	 */
+	public Compte(int numCompte, double solde) {
+		super();
+		this.numCompte = numCompte;
+		this.solde = solde;
+	}
+	
 	/**
 	 * @return the numCompte
 	 */
@@ -34,15 +45,6 @@ public class Compte {
 	 * @param solde the solde to set
 	 */
 	public void setSolde(double solde) {
-		this.solde = solde;
-	}
-	/**
-	 * @param numCompte
-	 * @param solde
-	 */
-	public Compte(int numCompte, double solde) {
-		super();
-		this.numCompte = numCompte;
 		this.solde = solde;
 	}
 	
