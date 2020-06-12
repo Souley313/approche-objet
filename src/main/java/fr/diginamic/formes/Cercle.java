@@ -10,7 +10,7 @@ package fr.diginamic.formes;
  */
 public class Cercle extends Forme {
 
-	double rayon; // rayon du cercle
+	private double rayon; // rayon du cercle
 
 	/**
 	 * @param rayon

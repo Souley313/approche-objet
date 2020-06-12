@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 public class CalculMoyenne {
 
-	double [] elmts;
+	private double [] elmts;
 	
 	/**
 	 * constructeur de la classe CalculMoyenne qui n’a pas de paramètre
