@@ -60,9 +60,6 @@ public class Rectangle implements ObjetGeometrique {
 		return longeur * largeur;
 	}
 	
-	@Override
-	public String toString() {
-		return "longeur du rectangle=" + longeur + " largeur du rectangle= " + largeur + " toString()=" + super.toString() ;
-	}
+	
 
 }

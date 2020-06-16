@@ -9,9 +9,7 @@ package utils;
  */
 public class TestObjetGeometrique {
 
-	/**
-	 * @param args
-	 */
+	
 	/**
 	 * @param args
 	 */

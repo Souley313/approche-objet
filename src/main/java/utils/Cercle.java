@@ -6,9 +6,9 @@ package utils;
  *
  */
 public class Cercle implements ObjetGeometrique {
-
-	private double rayon; // rayon du cercle
-
+	
+	private double rayon; //Rayon du cercle
+	
 	/**
 	 * @param rayon
 	 */

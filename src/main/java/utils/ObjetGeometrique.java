@@ -6,6 +6,7 @@ package utils;
  * @author Souleymane THIAM
  */
 public interface ObjetGeometrique {
+	
 	/**
 	 * Retourne le périmètre d’une forme géométrique
 	 * 
