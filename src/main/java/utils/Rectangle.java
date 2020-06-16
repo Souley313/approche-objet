@@ -7,8 +7,8 @@ package utils;
  */
 public class Rectangle implements ObjetGeometrique {
 
-	double longeur; // longeur du triangle
-	double largeur; // largeur du triangle
+	private double longeur; // longeur du triangle
+	private double largeur; // largeur du triangle
 
 	/**
 	 * @param longeur

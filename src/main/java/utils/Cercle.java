@@ -41,12 +41,6 @@ public class Cercle implements ObjetGeometrique {
 	public double surface() {//Retourne la surface d'un cercle
 		// TODO Auto-generated method stub
 		return Math.PI * rayon * rayon;
-	}
-
-	@Override
-	public String toString() {
-		return "Rayon du cercle= " + rayon + ", toString()=" + super.toString();
-	}
-	
+	}	
 	
 }
