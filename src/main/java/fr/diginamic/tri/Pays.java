@@ -12,11 +12,11 @@ package fr.diginamic.tri;
 public class Pays implements Comparable<Pays> {
 
 	/** nom */
-	private String nom;
+	public String nom;
 	/** nbHabitant */
-	private int nbHabitant;
+	public int nbHabitant;
 	/** pibParHabitant */
-	private int pibParHabitant;
+	public int pibParHabitant;
 
 	/**
 	 * Constructeur

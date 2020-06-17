@@ -37,6 +37,12 @@ public class TestPays {
 			Collections.sort(pays);
 			System.out.println(pays);
 			
+			Collections.sort(pays, new ComparatorHabitant());
+			System.out.println(pays);
+
+			Collections.sort(pays, new ComparatorPibHabitant());
+			System.out.println(pays);
+			
 			
 			
 			
