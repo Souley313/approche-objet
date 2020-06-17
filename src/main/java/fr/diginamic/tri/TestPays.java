@@ -33,7 +33,7 @@ public class TestPays {
 
 			System.out.println(pays);
 			
-			// Tri des pays selon la méthode compareTo de Livre
+			// Tri des pays selon la méthode compareTo de pays
 			Collections.sort(pays);
 			System.out.println(pays);
 			

@@ -16,7 +16,7 @@ public class Pays implements Comparable<Pays> {
 	/** nbHabitant */
 	private int nbHabitant;
 	/** pibParHabitant */
-	private double pibParHabitant;
+	private int pibParHabitant;
 
 	/**
 	 * Constructeur
@@ -25,7 +25,7 @@ public class Pays implements Comparable<Pays> {
 	 * @param nbHabitant
 	 * @param pibParHabitant
 	 */
-	public Pays(String nom, int nbHabitant, double pibParHabitant) {
+	public Pays(String nom, int nbHabitant, int pibParHabitant) {
 		this.nom = nom;
 		this.nbHabitant = nbHabitant;
 		this.pibParHabitant = pibParHabitant;
@@ -93,8 +93,7 @@ public class Pays implements Comparable<Pays> {
 	
 	@Override
 	public int compareTo(Pays o) {
-		// TODO Auto-generated method stub
-		return this.nom.compareTo(o.getNom());
+		return ( (Integer)this.pibParHabitant).compareTo( (Integer)o.pibParHabitant);
 	}
 
 		
