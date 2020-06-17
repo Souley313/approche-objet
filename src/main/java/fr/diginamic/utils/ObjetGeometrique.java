@@ -1,4 +1,4 @@
-package utils;
+package fr.diginamic.utils;
 
 /**
  * Liste les méthodes obligatoires que doit posséder un objet géométrique

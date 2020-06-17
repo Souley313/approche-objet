@@ -1,7 +1,7 @@
 /**
  * 
  */
-package utils;
+package fr.diginamic.utils;
 
 
 import java.lang.Integer;

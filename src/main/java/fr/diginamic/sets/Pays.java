@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sets;
+package fr.diginamic.sets;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -12,9 +12,9 @@ import java.util.Iterator;
  */
 public class Pays {
 
-	String nom;
-	int nbrHbts;
-	int pibHbts;
+	private String nom;
+	private int nbrHbts;
+	private int pibHbts;
 
 	/**
 	 * @param nom
@@ -44,7 +44,7 @@ public class Pays {
 	/**
 	 * @return the nbrHbts
 	 */
-	public int getNbrHbts() {
+	public double getNbrHbts() {
 		return nbrHbts;
 	}
 
@@ -81,7 +81,7 @@ public class Pays {
 		// TODO Auto-generated method stub
 
 		HashSet<Pays> pays = new HashSet<Pays>();
-		pays.add(new Pays("France", 69861344, 43551));
+		pays.add(new Pays("USA",328239523, 62606));
 		pays.add(new Pays("France", 67028048, 41470));
 		pays.add(new Pays("Allemagne", 82801531, 50206));
 		pays.add(new Pays("UK", 63421628, 43620));
@@ -141,9 +141,9 @@ public class Pays {
 			}
 		}
 		pays.remove(tmp3);
-		
+
 		System.out.println("Après modification voici la liste des pays :");
-		
+
 		Iterator<Pays> iter=pays.iterator();
 	      while(iter.hasNext())
 	      {

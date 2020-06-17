@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sets;
+package fr.diginamic.sets;
 
 import java.util.HashSet;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package utils;
+package fr.diginamic.utils;
 
 /**
  * La classe Rectangle

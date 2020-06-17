@@ -1,7 +1,7 @@
 /**
  * 
  */
-package listes;
+package fr.diginamic.listes;
 
 
 import java.util.ArrayList;

@@ -3,7 +3,7 @@
  */
 package fr.diginamic.chaines;
 
-import entites.Personne;
+import fr.diginamic.entites.Personne;
 import fr.diginamic.banque.entites.Compte;
 
 /**

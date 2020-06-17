@@ -1,4 +1,4 @@
-package essais;
+package fr.diginamic.essais;
 
 //import entites.AdressePostale;
 
