@@ -24,6 +24,7 @@ public class TestReflectionUtils {
 				} catch ( PaysNullException | IllegalArgumentException | IllegalAccessException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
+					System.out.println(e.getMessage());
 				}
 		
 
