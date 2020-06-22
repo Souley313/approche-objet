@@ -13,12 +13,23 @@ import fr.diginamic.recensement.Ville;
  */
 public class ComparPlusGrandVille implements Comparator<Ville> {
 
+	/**
+	 * Cette methode compare deux villes v1 et v2 par rapport à leur nombre
+	 * d'habitants: 
+	 * Si v2 est plus peuplé Retourne 1  
+	 * Si v1 est plus
+	 * peuplé Retourne -1  
+	 * Sinon Retourne 0 
+	 * 
+	 * 
+	 */
+
 	@Override
-	public int compare(Ville o1, Ville o2) {
+	public int compare(Ville v1, Ville v2) {
 		// TODO Auto-generated method stub
-		if (o1.getPopulation() < o2.getPopulation()) {
+		if (v1.getPopulation() < v2.getPopulation()) {
 			return 1;
-		} else if (o1.getPopulation() > o2.getPopulation()) {
+		} else if (v1.getPopulation() > v2.getPopulation()) {
 			return -1;
 		}
 		return 0;

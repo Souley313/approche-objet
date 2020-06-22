@@ -9,6 +9,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
+ * Classe permettant de faire des test sur les dates avec  Calendar
  * @author souleymaneTHIAM
  *
  */

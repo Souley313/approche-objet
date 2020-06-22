@@ -3,7 +3,7 @@
  */
 package fr.diginamic.recensement;
 
-/**
+/** Classe département
  * @author souleymaneTHIAM
  *
  */
@@ -15,6 +15,7 @@ public class Departement {
 	private int population;
 	
 	/**
+	 * Constructeur de département
 	 * @param codeDep
 	 * @param population
 	 */

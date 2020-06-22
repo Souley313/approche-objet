@@ -9,7 +9,9 @@ package fr.diginamic.listes;
  */
 public class Ville {
 	
+	/**Nom de la ville*/
 	String nom;
+	/**Nombre d'habitants*/
 	int nbreHts;
 
 	/**
@@ -40,6 +42,7 @@ public class Ville {
 		this.nbreHts = nbreHts;
 	}
 
+	/**Constructeur de ville*/
 	public Ville(String nom, int nbreHts) {
 		super();
 		this.nom = nom;

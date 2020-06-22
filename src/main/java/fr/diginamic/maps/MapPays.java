@@ -16,7 +16,13 @@ public class MapPays {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+
+		/**
+		 * Création d'un objet HashMap appelé mapPays qui stockera les clés de nom du
+		 * pays et les valeurs informations concernant les pays
+		 */
 		HashMap<String, Pays> mapPays = new HashMap<String, Pays>();
+		/** Ajout des pays */
 		mapPays.put("USA", new Pays("USA", 332_639_000, 59_495));
 		mapPays.put("France", new Pays("France", 67_064_000, 43_551));
 		mapPays.put("Allemagne", new Pays("Allemagne", 83_149_300, 50_206));
@@ -26,10 +32,11 @@ public class MapPays {
 		mapPays.put("Chine", new Pays("Chine", 1_400_050_000, 16_624));
 		mapPays.put("Russie", new Pays("Russie", 146_748_590, 28_712));
 		mapPays.put("Inde", new Pays("Inde", 1_386_249_417, 5_174));
-
+		
+		/**Retrouver le pays le moins peuplé et le supprimer*/
 		Pays p = mapPays.values().iterator().next();
-		for(Pays pays : mapPays.values()) {
-			if(pays.getNbHabitant() < p.getNbHabitant()) {
+		for (Pays pays : mapPays.values()) {
+			if (pays.getNbHabitant() < p.getNbHabitant()) {
 				p = pays;
 			}
 		}

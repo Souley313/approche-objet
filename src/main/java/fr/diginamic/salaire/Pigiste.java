@@ -9,7 +9,9 @@ package fr.diginamic.salaire;
  */
 public class Pigiste extends Intervenant {
 	
+	/**Nombre de jour travaillé pour un pigiste*/
 	private int nombreJrTrav;
+	/**salaire journalier d'un pigiste*/
 	private double montantJr;
 	
 	public Pigiste(String nom, String prenom) {

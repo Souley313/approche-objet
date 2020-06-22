@@ -6,7 +6,7 @@ package fr.diginamic.chaines;
 import fr.diginamic.entites.Personne;
 import fr.diginamic.banque.entites.Compte;
 
-/**
+/** Classe permettant de manipuler des chaines de caracteres
  * @author Souleymane THIAM
  *
  */

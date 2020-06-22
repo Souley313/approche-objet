@@ -4,6 +4,7 @@
 package fr.diginamic.banque.entites;
 
 /**
+ * La classe Débit qui hérite de opération
  * @author Souleymane THIAM
  *
  */

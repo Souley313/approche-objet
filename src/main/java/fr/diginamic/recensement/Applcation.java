@@ -65,9 +65,6 @@ public class Applcation {
 		 * Recherchez dans la liste la ville de Montpellier et affichez toutes les
 		 * informations la concernant
 		 */
-		// System.out.println("Veuillez entrer un nom de ville pour afficher toutes les
-		// information la concernant.");
-		// String ville = scanner.next();
 		for (int i = 0; i < recensement.getVilles().size(); i++) {
 			if (recensement.getVilles().get(i).getNomCommune().equals("Montpellier")) {
 				System.out.println(recensement.getVilles().get(i));
@@ -79,10 +76,6 @@ public class Applcation {
 		/**
 		 * Afficher la population de tout le département de l’Hérault.
 		 */
-
-		// System.out.println("\nVeuillez entrer un numéro de département pour afficher
-		// sa population totale.");
-		// String dep = scanner.next();
 		int nbrD = 0;
 		for (int i = 0; i < recensement.getVilles().size(); i++) {
 			if (recensement.getVilles().get(i).getCodeDepartement().equals("34")) {
@@ -94,10 +87,6 @@ public class Applcation {
 		System.out.println("-------------------\n");
 
 		/** Affichez la plus petite ville du département */
-
-		// System.out.println("\nVeuillez entrer un numéro de dépatement pour trouver sa
-		// plus petite ville.");
-		// String dept = scanner.next();
 		int poppV = Integer.MAX_VALUE;
 		String villep = null;
 		for (int i = 0; i < recensement.getVilles().size(); i++) {
@@ -113,12 +102,6 @@ public class Applcation {
 		System.out.println("-------------------\n");
 
 		/** Affichez les 10 plus grandes villes du département */
-
-		// System.out.println("Veuillez entrer un numéro de dépatement pour chercher les
-		// 10 plus grandes et 10 plus petites villes du département.\n");
-		// String deptv = scanner.next();
-		
-		// Alimentation d'une liste ne contenant que les villes du département donné
 		List<Ville> vDept = new ArrayList<>();
 		for (int i = 0; i < recensement.getVilles().size(); i++) {
 			if (recensement.getVilles().get(i).getCodeDepartement().equals("34")) {
@@ -134,8 +117,6 @@ public class Applcation {
 		System.out.println("-------------------\n");
 
 		/** Affichez les 10 plus petites villes du département */
-		// List<Ville> vDept = new ArrayList<>();
-
 		for (int i = 0; i < recensement.getVilles().size(); i++) {
 			if (recensement.getVilles().get(i).getCodeDepartement().equals("34")) {
 				vDept.add(recensement.getVilles().get(i));
@@ -150,9 +131,6 @@ public class Applcation {
 		System.out.println("-------------------\n");
 
 		/** Affichez la population de toute la région Occitaine */
-		// System.out.println("Veuillez entrer un code région pour touver sa population
-		// totale.");
-		// String reg1 = scanner.next();
 		int popReg = 0;
 		for (int i = 0; i < recensement.getVilles().size(); i++) {
 			if (recensement.getVilles().get(i).getNomRegion().equals("Occitanie")) {
@@ -164,7 +142,6 @@ public class Applcation {
 		System.out.println("-------------------\n");
 
 		/** Affichez les 10 villes les plus importantes de la région Occitanie */
-		// Charger une liste que pour les villes de la région Occitanie
 		List<Ville> vReg = new ArrayList<>();
 		for (int i = 0; i < recensement.getVilles().size(); i++) {
 			if (recensement.getVilles().get(i).getCodeRegion().equals("76")) {
@@ -182,5 +159,7 @@ public class Applcation {
 
 		/** Affichez le département le plus peuplé de la région Occitanie */
 
+		System.out.println("-------------------\n");
+		
 	}
 }

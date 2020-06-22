@@ -19,6 +19,7 @@ public class TestListeInt {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		/**initialiser une liste puis y ajouter les éléments un par un avec la méthode add().*/
 		List<Integer> list = new ArrayList<Integer>();
 		list.add(-1);
 		list.add(5);
@@ -29,6 +30,7 @@ public class TestListeInt {
 		list.add(8);
 		list.add(5);
 		
+		/**affichhage de la liste*/
 		System.out.println(list);
 		
 		/**Taille du liste*/

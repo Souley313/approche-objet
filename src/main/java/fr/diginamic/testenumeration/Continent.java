@@ -4,11 +4,12 @@
 package fr.diginamic.testenumeration;
 
 /**
+ * Classe énumration Continent 
  * @author souleymaneTHIAM
  *
  */
 public enum Continent {
-	
+	/**énumérer les champs*/
 	 EUROPE("Europe"), 
 	 AMERIQUE("Amérique"), 
 	 ASIE("Asie"), 
@@ -29,8 +30,10 @@ public enum Continent {
 		this.nomContinent = nomContinent;
 	}
 
+	/**Variable d'état interne*/
 	private String nomContinent;
 
+	/**Constructeur de continent*/
 	Continent(String nomContinent) {
 		this.nomContinent  = nomContinent;
 	}

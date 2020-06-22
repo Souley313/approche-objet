@@ -10,8 +10,10 @@ package fr.diginamic.entites;
  */
 public class Cercle {
 	
+	/**Rayon du cercle*/
 	private Double rayon;
 
+	/**Constructeur de cercle*/
 	public Cercle(Double rayon) {
 		this.rayon = rayon;
 	}

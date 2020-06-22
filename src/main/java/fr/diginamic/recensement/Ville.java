@@ -109,6 +109,7 @@ public class Ville {
 	}
 
 	/**
+	 * Constructeur de ville
 	 * @param codeRegion
 	 * @param nomRegion
 	 * @param codeDepartement

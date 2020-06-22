@@ -22,9 +22,9 @@ public class LectureFichier {
 		// TODO Auto-generated method stub
 
 		try {
-			File file = new File("C:\\tmp\\recensement 2016.csv");
-			List<String> lignes = FileUtils.readLines(file, "UTF-8");
-			for (String ligne : lignes) {
+			File file = new File("C:\\tmp\\recensement 2016.csv");//Recupération d'un fichier externe
+			List<String> lignes = FileUtils.readLines(file, "UTF-8");//creation d'une liste à partir du fichier
+			for (String ligne : lignes) {//Parcours et affichage de la liste
 				System.out.println(ligne);
 			}
 			System.out.println("Nombre de lignes :" + lignes.size());

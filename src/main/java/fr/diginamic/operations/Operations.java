@@ -4,6 +4,7 @@
 package fr.diginamic.operations;
 
 /**
+ * Classe pour faire des calcul sur deux variables de type double
  * @author Souleymane THIAM
  *
  */

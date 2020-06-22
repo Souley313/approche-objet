@@ -13,7 +13,7 @@ public class Rectangle extends Forme {
 	private double longeur; // longeur du triangle
 	private double largeur; // largeur du triangle
 	
-	/**
+	/**Constructeur d'un rectangle
 	 * @param longeur
 	 * @param largeur
 	 */

@@ -9,9 +9,12 @@ package fr.diginamic.salaire;
  */
 public class Salarie extends Intervenant {
 	
+	/**Salaire*/
 	private double montantSalaire;
+	/**type de contrat d'un salarié*/
 	private String typeContrat;
 
+	/**Constructeur pour un salarié*/
 	public Salarie(String nom, String prenom ) {
 		super(nom, prenom);
 		// TODO Auto-generated constructor stub

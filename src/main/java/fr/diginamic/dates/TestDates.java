@@ -7,6 +7,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
+ * Classe permettant de faire des test sur les dates avec  Date
  * @author souleymaneTHIAM
  *
  */
@@ -19,8 +20,8 @@ public class TestDates {
 		// TODO Auto-generated method stub
 
 		@SuppressWarnings("deprecation")
-		Date date1 = new Date(120, 5, 19);
-		SimpleDateFormat format1 = new SimpleDateFormat("dd/MM/yyyy");
+		Date date1 = new Date(120, 5, 19);//une instance d'un objet Date date1
+		SimpleDateFormat format1 = new SimpleDateFormat("dd/MM/yyyy");//Formatage de notre objet date1
 		System.out.println(format1.format(date1));
 		
 		@SuppressWarnings("deprecation")

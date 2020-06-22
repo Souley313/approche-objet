@@ -6,6 +6,7 @@ package fr.diginamic.maps;
 
 
 /**
+ * Classe pays
  * @author formation
  *
  */

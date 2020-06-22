@@ -9,7 +9,9 @@ package fr.diginamic.banque.entites;
  */
 public abstract class Operation {
 	
+	/**Date de l'opération*/
 	private String date;
+	/**Montant de l'opération*/
 	private double montant;
 	
 	/**

@@ -1,6 +1,7 @@
 package fr.diginamic.banque.entites;
 
 /**
+ * La classe Crédit qui hérite de opération
  * @author Souleymane THIAM
  *
  */

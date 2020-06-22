@@ -11,7 +11,9 @@ package fr.diginamic.salaire;
  */
 public abstract class Intervenant {
 	
+	/**Nom de l'intervenant*/
 	private String nom;
+	/**Prenom de l'intervenant*/
 	private String prenom;
 	
 	/**
@@ -51,10 +53,10 @@ public abstract class Intervenant {
 		this.prenom = prenom;
 	}
 
-	//méthode abstraite getSalaire qui retourne le salaire des intervenants
+	/**méthode abstraite getSalaire qui retourne le salaire des intervenants*/
 	public abstract double getSalaire();
 	
-	//
+	/**méthode abstraite qui retourne des informations sur les intervenants*/
 	public abstract void afficherDonnees();
 
 }

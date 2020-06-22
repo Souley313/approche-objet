@@ -7,9 +7,12 @@ package fr.diginamic.entites;
  *
  */
 public class Personne {
-
+	
+	/**Nom de la personne*/
 	String nom;
+	/**Prenom de la personne*/
 	String prenom;
+	/**Adresse de la personne*/
 	AdressePostale adr;
 
 	/**
