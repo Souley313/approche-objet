@@ -12,6 +12,14 @@ package fr.diginamic.maison;
 public class Maison {
 
 	private Piece[] pieces; // Tableau de pièces
+	
+	/**
+	 * Constructeur
+	 */
+	public Maison(){
+		// Initialisation du tableau de pièces
+		pieces = new Piece[0];
+	}
 
 	/**
 	 * @param pieces
@@ -35,11 +43,11 @@ public class Maison {
 	}
 
 	// Méthode permettant d’ajouter une pièce à la maison
-	public Piece[] ajouterPiece(Piece nvlPiece) {
+	public void  ajouterPiece(Piece nvlPiece) {
 
 		if (nvlPiece == null || nvlPiece.getNumEtage() < 0 || nvlPiece.getSuperficie() < 0) {
-			System.out.println("Votre pièce est incorrecte");
-			return pieces;
+			System.out.println("Veuillez entrer une pièce valable");
+			return  ;
 		}
 
 		// On créer un tableau temporaire appelé tmp qui a une taille égale à la tableau
@@ -53,7 +61,7 @@ public class Maison {
 
 		tmp[tmp.length - 1] = nvlPiece;
 
-		return this.pieces = tmp;
+		this.pieces = tmp;
 	}
 
 	// Méthode qui retourne la superficie totale de la maison
